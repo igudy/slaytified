@@ -1,7 +1,7 @@
 import React from "react";
 
 interface IDashboardCard {
-  user: any;
+  user: string;
 }
 
 const DashboardCard = ({ user }: IDashboardCard) => {
