@@ -1,10 +1,7 @@
+// import { IUser } from "@/app/features/user/userApi";
 import React from "react";
 
-interface IDashboardCard {
-  user: string;
-}
-
-const DashboardCard = ({ user }: IDashboardCard) => {
+const DashboardCard = ({ user }) => {
   console.log("🚀 ~ DashboardCard ~ user:", user);
   return <div>DashboardCard</div>;
 };
