@@ -1,9 +1,9 @@
-// import { IUser } from "@/app/features/user/userApi";
+"use client";
 import React from "react";
 
 const DashboardCard = ({ user }) => {
   console.log("🚀 ~ DashboardCard ~ user:", user);
-  return <div>DashboardCard</div>;
+  return <div>Welcome, {user?.name || "User"}</div>;
 };
 
 export default DashboardCard;

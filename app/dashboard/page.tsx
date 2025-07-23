@@ -1,6 +1,6 @@
+"use client";
 import { useGetUserQuery } from "../features/user/userApi";
 import DashboardCard from "./components/DashboardCard";
-
 
 export default function Dashboard() {
   const { data, isLoading } = useGetUserQuery();
